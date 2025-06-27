@@ -1,0 +1,4 @@
+#result for the five main subjets
+#variable as subject name 
+english=int(input("enter the number in english subject:  "))
+
