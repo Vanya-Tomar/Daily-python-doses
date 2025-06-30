@@ -4,20 +4,20 @@ english=int(input("enter the number obtained in english subject:  "))
 hindi=int(input("enter the number obtained in hindi subject:  "))
 science=int(input("enter the number obtained in science subject:  "))
 maths=int(input("enter the number obtained in maths subject:   "))
-social science =int(input("enter the number obtained in social science :  "))
+socialscience =int(input("enter the number obtained in social science :  "))
 list1=[]
-list1.append("english")
-list1.append("hindi")
-list1.append("science ")
-list1.append("maths")
-list1.append("social science")
+list1.append(english)
+list1.append(hindi)
+list1.append(science)
+list1.append(maths)
+list1.append(socialscience)
 result=sum(list1)
-print ("result")
-if (result <=85):
+print ("Result :",result)
+if (result >=430):
   print("Division 1")
-elif (result >=84 and <=65):
+elif (result >=300):
   print("Division 2")
-elif (result >=64 and <=40):
+elif (result >=200):
   print ("Division 3")
 else print("Fail")  
 
