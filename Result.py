@@ -13,7 +13,11 @@ list1.append("maths")
 list1.append("social science")
 result=sum(list1)
 print ("result")
-if (result = >85):
+if (result <=85):
   print("Division 1")
-  
+elif (result >=84 and <=65):
+  print("Division 2")
+elif (result >=64 and <=40):
+  print ("Division 3")
+else print("Fail")  
 
