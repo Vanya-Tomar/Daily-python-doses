@@ -13,4 +13,7 @@ list1.append("maths")
 list1.append("social science")
 result=sum(list1)
 print ("result")
+if (result = >85):
+  print("Division 1")
+  
 
