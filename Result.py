@@ -11,3 +11,6 @@ list1.append("hindi")
 list1.append("science ")
 list1.append("maths")
 list1.append("social science")
+result=sum(list1)
+print ("result")
+
